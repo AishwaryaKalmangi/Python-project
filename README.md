@@ -20,3 +20,10 @@ TITLE: BBC NEWS CLASSIFICATION USING DIFFERENT ALGORITHMS
 • Find word cloud, most frequent words from ‘text’ column.
 
 • Pre-processing & Tokenization is performed in this step mainly.
+
+2.The following stage is feature engineering, which involves turning the raw dataset into flat features that can be incorporated into a machine learning model. The process of extracting new features from the existing data is also a part of this step. Following that, the dataset is split into train and validation sets. • Converting text into appropriate features is the first step.
+• Count Vectors as features.
+
+• TF-IDF Vectors as features.
+
+• Split the dataset into Train & Test datasets.
