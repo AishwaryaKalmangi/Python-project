@@ -27,3 +27,26 @@ TITLE: BBC NEWS CLASSIFICATION USING DIFFERENT ALGORITHMS
 • TF-IDF Vectors as features.
 
 • Split the dataset into Train & Test datasets.
+
+3.Model Training: The final step is the Model Building step in which a machine learning model is trained on a labelled dataset.
+
+• Train the model using different algorithms:
+
+Naive Bayes Classifier
+Logistic Regression
+Decision Tree Classifier
+Linear Support Vector Machine (Linear SVC)
+Random Forest Classifier
+• Get the accuracy and predict a test sample to know which category the text belongs to.
+
+• It will predict the ‘category’ of article text.
+
+• Compare the accuracy of models.
+
+4.Improve Performance of Text Classifier: In this article, we will also look at the different ways to improve the performance of text classifiers.
+
+• Text cleaning.
+
+• NLP features with text feature vectors.
+
+• Using exhaustive stop word list.
