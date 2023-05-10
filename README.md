@@ -50,3 +50,28 @@ Random Forest Classifier
 • NLP features with text feature vectors.
 
 • Using exhaustive stop word list.
+
+Web app using Flask
+
+Main : App.py This file contains main code needed to run an application.
+
+dev: All the dependency files are listed.
+
+templates: This folder contain html pages, User Interface code which is appeared on front-end pages.
+
+static: This folder contains css required for front end page.
+
+NB_bbc_news.pkl : This is downloaded from the saved model.
+
+• We ran our application as a single module; thus we initialized a new Flask instance with the argument name to let Flask know that it can find the HTML template. folder (templates) in the same directory where it is located.
+
+• Next, we used the route decorator (@app.route('/')) to specify the URL that should trigger the execution of the home function.
+
+• Our home function simply rendered the home.html HTML file, which is located in the templates folder.
+
+• Inside the predict function, we access the BBC news data set, pre-process the text, and make predictions, then store the model. We access the new article text entered by the user and use our model to make a prediction for its label.
+
+• we used the POST method to transport the form data to the server in the message body. Finally, by setting the debug=True argument inside the app.run method, we further activated Flask's debugger.
+
+• Lastly, we used the run function to only run the application on the server when this script is directly executed by the Python interpreter, which we ensured using the if statement with name == 'main'. First when web app is opened we see home.html UI Enter a article text
+
