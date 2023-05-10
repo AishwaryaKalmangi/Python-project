@@ -1,3 +1,4 @@
+![image-2](https://github.com/AishwaryaKalmangi/Python-project/assets/98350313/fb9e4893-ff90-4a3a-ae16-8fd6b0615d3a)
 TITLE: BBC NEWS CLASSIFICATION USING DIFFERENT ALGORITHMS
 
 1.The first stage is the Dataset Preparation step, which entails loading a dataset and carrying out fundamental pre-processing.
